@@ -45,8 +45,11 @@ $(document).ready(function () {
   //Smooth scrolling with links
   $('.main-menu a[href*=\\#]').on('click', function (event) {
     event.preventDefault();
-    $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 800);
-    $('.navbar-toggler').trigger('click'); // to close navbar
+    $('html,body').animate({ scrollTop: ($(this.hash).offset().top)-90 }, 800);
+
+    if( $(window).width() < 768 ) {
+      $('.nav-switch').trigger('click'); // to close navbar
+    }
   });
 
 });

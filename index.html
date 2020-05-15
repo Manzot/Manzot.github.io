@@ -14,50 +14,48 @@
   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap" rel="stylesheet">
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/font-awesome.min.css" />
-  <link rel="stylesheet" href="css/flaticon.css" />
-  <link rel="stylesheet" href="css/owl.carousel.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fancybox.min.css">
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
   <div class="row no-gutters">
     <div class="col-md-3 col-lg-2 sidebar">
-      <div class="sidebar-box p-4">
+      <div class="sidebar-box p-3 p-md-4">
 
-          <!-- Site Logo -->
           <div class="logo">
             <a href="index.html" class="site-logo"> <h4 class="text-light">Manzot Singh</h4> </a>
             <h6>Game Developer</h6>
           </div>
-          <!-- Main Menu -->
+
           <div class="nav-switch">
             <i class="fa fa-bars"></i>
           </div>
 
-          <ul class="main-menu mt-5">
+          <ul class="main-menu mt-md-5">
             <!-- <li><a href="index.html">Home</a></li> -->
             <li><a href="#about">About me</a></li>
-            <li><a href="#about2">More Info</a></li>
-            <li><a href="#cv">Curriculum Vitae (CV)</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#media">Media</a></li>
+            <li><a href="#info">Curriculum Vitae (CV)</a></li>
+            <li><a href="#resources">Resources</a></li>
             <li><a href="#contact">Contact me</a></li>
           </ul>
 
-          <div class="social mt-5">
+          <div class="social mt-md-5">
             <ul class="social-menu list-inline">
-              <li class="list-inline-item"><a href="#"> <i class="fab fa-facebook"></i> </a></li>
-              <li class="list-inline-item"><a href="#"> <i class="fab fa-linkedin"></i> </a></li>
-              <li class="list-inline-item"><a href="#"> <i class="fab fa-github"></i> </a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="facebook"> <i class="fab fa-facebook"></i> </a></li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/manjot-singh-195458143/" target="_blank" title="linkedin"> <i class="fab fa-linkedin"></i> </a></li>
+              <li class="list-inline-item"><a href="https://github.com/Manzot" target="_blank" title="github"> <i class="fab fa-github"></i> </a></li>
+              <li class="list-inline-item"><a href="https://www.youtube.com/c/defacegames" target="_blank" title="Deface Games"> <i class="fab fa-youtube" style="color:#ff0000;"></i> </a></li>
             </ul>
           </div>
 
-          <div class="copyright">
-            &copy; No Copyrights.<br> Handcrafted by Manzot himself.
+          <div class="copyrightxxx d-none d-md-block mt-md-5">
+            <small><a href="mailto:zotysingh@gmail.com"><i class="fa fa-envelope"></i> manzotsingh@gmail.com</a></small> <br>
+            <small class="text-muted">No Copyrights &copy;<br> Handcrafted by Manzot himself</small>
           </div>
 
       </div>
@@ -65,7 +63,7 @@
     <div class="col-md-9 col-lg-10 content ml-auto">
 
       <!-- Hero section -->
-      <section id="hero" class="hero-section">
+      <section id="hero" class="hero-section bg-dark">
         <div id="carouselHero" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000" data-hover='false'>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -79,7 +77,7 @@
             <div class="container">
               <div class="row pt-5">
                 <div class="col-md-7">
-                  <div class="text-white py-md-5 mt-md-5">
+                  <div class="text-white py-md-5 mt-xl-3">
                     <h1>Manzot Singh</h1>
                     <h5>GAME DEVELOPER</h5>
                     <p class="lead pt-5">Currently doing nothing and <br> waiting for lockdown to over!</p>
@@ -87,8 +85,12 @@
                   </div>
                 </div>
                 <div class="col-md-5">
-                  <div class="bdo text-md-right pt-md-4">
-                    <img src="img/anim.gif" alt="">
+                  <div class="bdo text-md-right pt-md-4 d-lg-block" style="display:none;">
+                    <video class="w-100" controls preload="none" height="320" poster="videos/intro.jpg">
+                      <source src="videos/intro.mp4" type="video/mp4">
+                      Your browser doesn't support HTML5 video tag.
+                    </video>
+                    <!-- <img src="img/anim.gif" alt=""> -->
                     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/riCijmT-Ohk" frameborder="0" allowfullscreen></iframe> -->
                   </div>
                 </div>
@@ -102,68 +104,322 @@
       <section id="about" class="dark-section py-5">
         <div class="container">
           <div class="row">
-            <div class="col-md-8 text-white">
-              <h2>About me </h2>
-              <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab eos saepe voluptatibus non voluptatum earum possimus tenetur harum. Laboriosam quibusdam quaerat autem corrupti incidunt explicabo quidem nemo laborum repudiandae nam! </p>
+            <div class="col-md-9 text-white pr-md-5">
+              <h2 class="mb-4">About me </h2>
+              <p class="text-muted">Strategically minded and efficient Game Programmer with in-depth knowledge of Unity3D and C#, currently seeking good position in game industry where my creative skills and programming experience can be used as an asset to the company. Skilled at operating in a wide range of platforms and tools. </p>
+              <p class="text-muted">Also i am Veteran Gamer and Expert Game Developer, i love playing games as much as i do creating new ones. i have my own youtube channel too! </p>
             </div>
-            <div class="col-md-4 text-md-right">
-              <img src="img/default.jpg" alt="">
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- About section -->
-      <section id="about2" class="about-section py-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4">
-              <img src="img/default.jpg" alt="">
-            </div>
-            <div class="col-lg-8 about-text">
-              <h2>More about me :) </h2>
-              <p>Manzot is established by well experienced professionals working in the field of Game Industry from past three decades. With the commitment to provide the best quality products, they have worked with utmost dedication and served hundreds of clients across the world. </p>
-              <p><strong>My Mission</strong> is to work on specific Focus, understand our Customers, improve on our Products and Services, with aid of rapidly evolving and advancing Technologies and be a substantial player and win Warzone. </p>
+            <div class="col-md-3 text-md-right">
+              <img class="round-img" src="img/about.png" alt="">
             </div>
           </div>
         </div>
       </section>
 
       <!-- Services section -->
-      <section id="cv" class="services-section bg-light py-5">
+      <section id="skills" class="services-section bg-light py-5">
         <div class="container">
-          <div class="section-title text-center">
-            <h2>Curriculum Vitae (CV)</h2>
+          <h2 class="mb-4">My Skills</h2>
+          <div class="row skills-box">
+
+            <div class="col-lg-4 col-md-6 mb-4 pr-md-4">
+              <div class="icon my-3">
+                <i class="fa fa-users fa-3x"></i>
+              </div>
+              <div class="service-content">
+                <h4>I'm good working in teams and keeping busy</h4>
+                <p class="text-muted mb-4">I love coding and game development with a passion, and solving challenging problems by working with others to hit deadlines. Love playing games in squads too.</p>
+                <h6>Programming Languages</h6>
+                <p>C#, C++, Java, GLSL (Shaders) </p>
+                <h6>Technologies</h6>
+                <p>Unity2D, Unity3D, Unreal</p>
+                <h6>IDE </h6>
+                <p>Visual Studio, Eclipse, Notepad++</p>
+                <h6>Management </h6>
+                <p>Git, GitHub, Jira</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 pr-md-4">
+              <div class="icon my-3">
+                <i class="fa fa-laptop-code fa-3x"></i>
+              </div>
+              <div class="service-content">
+                <h4>I'm an adept programmer and love learning</h4>
+                <p class="text-muted mb-4">I am very fast learner and gaming is my passion. I realize that I don't know everything, but I recognize my weak points and add it to my learning.</p>
+                <h6>Design Patterns </h6>
+                <p>Top Down Architecture, Factory Pattern, Singleton, Object Pooling </p>
+                <h6>Framework Libraries </h6>
+                <p>Monobehaviour, SDL, OpenGL, JSP</p>
+                <h6>Database </h6>
+                <p>MySQL, JSON, Binary Formatting</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 pr-md-4">
+              <div class="icon my-3">
+                <i class="fa fa-gamepad fa-3x"></i>
+              </div>
+              <div class="service-content">
+                <h4>I'm a great listener and enjoy presenting too</h4>
+                <p class="text-muted mb-4">I believe everyone should be able to make games and that having diverse people brings a plethora of benefits to the team and project as well.</p>
+                <h6>Unity Skills </h6>
+                <p> Shaders, Particle Effects, Tilemaps, 2D Animations,  Universal Render Pipeline, Lighting and Shadows,  Level Designing, Post Processing </p>
+                <h6>Other Software's </h6>
+                <p>Adobe Premier Pro, Adobe Photoshop, Microsoft  Office </p>
+              </div>
+            </div>
+
           </div>
-          <div class="row">
+        </div>
+      </section>
 
-            <div class="col-lg-4 col-md-6 service">
-              <div class="service-icon">
-                <i class="fa fa-gamepad"></i>
-              </div>
-              <div class="service-content">
-                <h4>Veteran Gamer</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quia quis at voluptatem magnam quod nihil non omnis temporibus sit.</p>
+      <!-- About section -->
+      <section id="projects" class="about-section py-5">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-md-9 pr-md-5">
+              <h2 class="mb-4">Projects & Work </h2>
+              <p>A view of the games that I've worked on over the years. Developed 2D Games, 3D Games using Unity, using C# and inbuilt Unity tools. Implemented Top-Down Architecture and Singletons to optimize the games. Made features like path finding using A Star algorithm, time slow, time reverse, grapple hook, Dynamic UI, 2D shaders and particle effects and so much more.</p>
+              <h6>PROJECTS INVENTORY</h6>
+              <a href="#" target="_blank" class="btn btn-dark"> <i class="fa fa-download"></i> Projects Inventory </a>
+            </div>
+            <div class="col-md-3">
+              <img class="round-img" src="img/round3.png" alt="">
+            </div>
+          </div>
+          <!-- PROJECTS AREA -->
+          <div class="row mb-4">
+
+            <!-- project -->
+            <div class="col-lg-12 mb-4">
+              <div class="card project-card h-100">
+                <div class="row no-gutters h-100">
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h6 class="jesse-faden">1</h6>
+                      <h4> Grapplu -The Beginning </h4>
+                      <h6> Unity 2D, C#, Platformer </h6>
+                      <p>2D Platfomer game made in Unity with features like Grapple Hook, Time slow, Time Rewind, 3 types of enemies, 2 Bosses, 2 levels. </p>
+                      <a target="_blank" href="https://github.com/Manzot/Grapplu-TheBeginning" class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="project-media h-100">
+                      <a class="video-link h-100" data-fancybox href="#projectVideo1">
+                        <img class="cover-img" src="videos/grapplu.jpg" alt="">
+                        <div class="overlay"><i class="far fa-play-circle"></i></div>
+                      </a>
+                      <video id="projectVideo1" controls preload="none" width="640" height="320" style="display:none;" >
+                        <source src="videos/grapplu.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 service">
-              <div class="service-icon">
-                <i class="fa fa-gamepad"></i>
-              </div>
-              <div class="service-content">
-                <h4>Veteran Gamer</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quia quis at voluptatem magnam quod nihil non omnis temporibus sit.</p>
+            <!-- project -->
+            <div class="col-lg-12 mb-4">
+              <div class="card project-card h-100">
+                <div class="row no-gutters h-100">
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h6 class="jesse-faden">2</h6>
+                      <h4> Air Raid </h4>
+                      <h6> Unity3D (C#) </h6>
+                      <p>3D Airplane Simulator Game where you have to save the city flooded by enemies using a airplane that has different types of abilities such as shooting, throwing bombs,turrets,missiles and much more. </p>
+                      <a target="_blank" href="#" class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="project-media h-100">
+                      <a class="video-link h-100" data-fancybox href="#projectVideo1">
+                        <img class="cover-img" src="videos/grapplu.jpg" alt="">
+                        <div class="overlay"><i class="far fa-play-circle"></i></div>
+                      </a>
+                      <video id="projectVideo1" controls preload="none" width="640" height="320" style="display:none;" >
+                        <source src="videos/grapplu.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 service">
-              <div class="service-icon">
-                <i class="fa fa-gamepad"></i>
+            <!-- project -->
+            <div class="col-lg-12 mb-4">
+              <div class="card project-card h-100">
+                <div class="row no-gutters h-100">
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h6 class="jesse-faden">3</h6>
+                      <h4> Asteroids </h4>
+                      <h6> Unity2D (C#) </h6>
+                      <p> Asteroid game made with unity2d, where you have to save your spaceship from asteroids. </p>
+                      <a target="_blank" href="https://github.com/Manzot/Asteroids" class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="project-media h-100">
+                      <a class="video-link h-100" data-fancybox href="#projectVideo1">
+                        <img class="cover-img" src="videos/grapplu.jpg" alt="">
+                        <div class="overlay"><i class="far fa-play-circle"></i></div>
+                      </a>
+                      <video id="projectVideo1" controls preload="none" width="640" height="320" style="display:none;" >
+                        <source src="videos/grapplu.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="service-content">
-                <h4>Veteran Gamer</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quia quis at voluptatem magnam quod nihil non omnis temporibus sit.</p>
+            </div>
+
+            <!-- project -->
+            <div class="col-lg-12 mb-4">
+              <div class="card project-card h-100">
+                <div class="row no-gutters h-100">
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h6 class="jesse-faden">4</h6>
+                      <h4> Run Down The Road </h4>
+                      <h6> Unity2D (C#) </h6>
+                      <p>Top down 2D Running Game, where you run from start to finish and overcome obstacles on your way and fight enemies while running </p>
+                      <a target="_blank" href="https://github.com/Manzot/Run-Down" class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="project-media h-100">
+                      <a class="video-link h-100" data-fancybox href="#projectVideo1">
+                        <img class="cover-img" src="videos/grapplu.jpg" alt="">
+                        <div class="overlay"><i class="far fa-play-circle"></i></div>
+                      </a>
+                      <video id="projectVideo1" controls preload="none" width="640" height="320" style="display:none;" >
+                        <source src="videos/grapplu.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- project -->
+            <div class="col-lg-12 mb-4">
+              <div class="card project-card h-100">
+                <div class="row no-gutters h-100">
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h6 class="jesse-faden">5</h6>
+                      <h4> The Legend of Link </h4>
+                      <h6> Unity2D (C#) </h6>
+                      <p>Top down Zelda like game made in Unity2D where you have to kill corrupted pokemon in zelda like combat system </p>
+                      <a target="_blank" href="https://github.com/Manzot/The-Legend-of-Link" class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="project-media h-100">
+                      <a class="video-link h-100" data-fancybox href="#projectVideo1">
+                        <img class="cover-img" src="videos/grapplu.jpg" alt="">
+                        <div class="overlay"><i class="far fa-play-circle"></i></div>
+                      </a>
+                      <video id="projectVideo1" controls preload="none" width="640" height="320" style="display:none;" >
+                        <source src="videos/grapplu.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- project -->
+            <div class="col-lg-12 mb-4">
+              <div class="card project-card h-100">
+                <div class="row no-gutters h-100">
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h6 class="jesse-faden">6</h6>
+                      <h4> The Unrepairable Tower </h4>
+                      <h6> Unity3D (C#) </h6>
+                      <p>My first game jam game that we made in 2 days. In this game you have to reapir the tower which has some problems on each level. Its a endless tower where you rush to fix floor before its too late. </p>
+                      <a target="_blank" href="#" class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="project-media h-100">
+                      <a class="video-link h-100" data-fancybox href="#projectVideo1">
+                        <img class="cover-img" src="videos/grapplu.jpg" alt="">
+                        <div class="overlay"><i class="far fa-play-circle"></i></div>
+                      </a>
+                      <video id="projectVideo1" controls preload="none" width="640" height="320" style="display:none;" >
+                        <source src="videos/grapplu.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- project -->
+            <div class="col-lg-12 mb-4">
+              <div class="card project-card h-100">
+                <div class="row no-gutters h-100">
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h6 class="jesse-faden">7</h6>
+                      <h4> Spineless: A Blank Tale</h4>
+                      <h6> Unity3D VR (C#)</h6>
+                      <p>Virtual Reality Game made in Unity3d, where you are on a wheelchair and you shoot through enemies and kill the boss to win. It features a indoor level, ranged and melee enemies, one boss with 3 skills, stun gun, sword and pick able items and power ups.  </p>
+                      <a href="#" class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="project-media h-100">
+                      <a class="video-link h-100" data-fancybox href="#projectVideo1">
+                        <img class="cover-img" src="videos/grapplu.jpg" alt="">
+                        <div class="overlay"><i class="far fa-play-circle"></i></div>
+                      </a>
+                      <video id="projectVideo1" controls preload="none" width="640" height="320" style="display:none;" >
+                        <source src="videos/grapplu.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- project -->
+            <div class="col-lg-12 mb-4">
+              <div class="card project-card h-100">
+                <div class="row no-gutters h-100">
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h6 class="jesse-faden">8</h6>
+                      <h4> Cubeboii </h4>
+                      <h6> Unity3D (C#) </h6>
+                      <p>A Game where you are a cube and there is cubes rain and you have to save yourself from cubes bigger than you and you can eat cubes smaller than, when you eat a small cube your size grows and you have to eat enough cubes to grow as the biggest cube.  </p>
+                      <a href="#" class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="project-media h-100">
+                      <a class="video-link h-100" data-fancybox href="#projectVideo1">
+                        <img class="cover-img" src="videos/grapplu.jpg" alt="">
+                        <div class="overlay"><i class="far fa-play-circle"></i></div>
+                      </a>
+                      <video id="projectVideo1" controls preload="none" width="640" height="320" style="display:none;" >
+                        <source src="videos/grapplu.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -172,90 +428,93 @@
       </section>
 
       <!-- Facts section -->
-      <section id="projects" class="facts-section future-mode py-5" style="background: #000 url('img/slide1.jpg'); background-size: cover;">
+      <section id="info" class="facts-section future-mode py-5" style="background: #1a1d22 url('img/section2.jpg'); background-size: cover;">
         <div class="container py-5">
-          <div class="text-center future-title">
-            <h2 class="text-white mb-2">Future Projects</h2>
-            <p class="text-white mb-4 mx-auto" style="max-width:600px;">Manzot is established by well experienced professionals working in the field of Game Industry from past three decades. </p>
+          <div class="future-title">
+            <h2 class="text-white mb-4">Curriculum Vitae (CV)</h2>
           </div>
           <div class="row">
-
-            <div class="col-md-6">
-              <div class="future-item">
-                <h5 class="mb-2"><strong>High Frequency Games</strong> </h5>
-                <p>Multi Position glass top VR table dedicated to all long length Imaging Users and Digital Radiography users to save time, energy, technique and cost of equipment. What drives our team of skilled professionals to put in relentless efforts is their quest to serve the healthcare sector with excellence. Our team of experts is committed to work within a fixed time frame using the brand’s modern manufacturing.</p>
+            <div class="col-md-6 mb-4">
+              <div class="future-item h-100">
+                <h4 class="mb-2"> Education </h4>
+                <p>
+                  <small><strong>2019-(Pursuing)</strong></small> <br>
+                  Video Game Programming, Attestation of College Studies <br>
+                  <span class="text-muted">ISI, L'institut Supérieur d'Informatique  - Montreal, Canada</span> <br>
+                </p>
+                <p>
+                  <small><strong>2014-2018</strong></small> <br>
+                  Computer Science Engineering, Bachelors Degree <br>
+                  <span class="text-muted">Punjab Technical University -  Jalandhar, India</span> <br>
+                </p>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="future-item">
-                <h5 class="mb-2"><strong>Next Generation VR</strong></h5>
-                <p>Multi Position glass top VR table dedicated to all long length Imaging Users and Digital Radiography users to save time, energy, technique and cost of equipment. What drives our team of skilled professionals to put in relentless efforts is their quest to serve the healthcare sector with excellence. Our team of experts is committed to work within a fixed time frame using the brand’s modern testing facilities.</p>
+
+            <div class="col-md-6 mb-4">
+              <div class="future-item h-100">
+                <h4 class="mb-2"> Experiences </h4>
+                <p>
+                  <small><strong>June 2019 – April 2020</strong></small> <br>
+                  Nettoyage Eco-vert, Montreal, Quebec <br>
+                  <span class="text-muted">Worked as housekeeper</span> <br>
+                </p>
+                <p>
+                  <small><strong>Feb 2019 – May 2019</strong></small> <br>
+                  DLC Gardening, Kirkland, Quebec <br>
+                  <span class="text-muted">Worked as Laborer-Lawn Maintenance</span> <br>
+                </p>
               </div>
             </div>
-
           </div>
         </div>
       </section>
 
-      <!-- About section -->
-      <section id="about2" class="about-section py-5">
+      <!-- Resources section -->
+      <section id="resources" class="about-section bg-white py-5">
         <div class="container">
           <div class="row">
-            <div class="col-lg-4">
-              <img src="img/default.jpg" alt="">
+            <div class="col-md-9 pr-md-5">
+              <h2 class="mb-4">Resources </h2>
+              <p>A brief summary of my professional work experience in form of documents or online profiles. If you would like to see some more details on my source codes, check out my Github Repository. </p>
+              <div class="row">
+                <div class="col-lg-4">
+                  <h6>GITHUB</h6>
+                  <a href="https://github.com/Manzot" target="_blank" class="btn btn-primary mb-3"> <i class="fab fa-github"></i> My Github Repository </a> <br>
+                </div>
+                <div class="col-lg">
+                  <h6>DOWNLOADS</h6>
+                  <a href="resume-manzot-singh.pdf" class="btn btn-dark mb-2"> <i class="fa fa-file-pdf"></i> View Resume </a>
+                  <a href="cv-manzot-singh.pdf" class="btn btn-dark mb-2"> <i class="fa fa-file-alt"></i> View CV </a>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-8 about-text">
-              <h2>More about me :) </h2>
-              <p>Manzot is established by well experienced professionals working in the field of Game Industry from past three decades. With the commitment to provide the best quality products, they have worked with utmost dedication and served hundreds of clients across the world. </p>
-              <p><strong>My Mission</strong> is to work on specific Focus, understand our Customers, improve on our Products and Services, with aid of rapidly evolving and advancing Technologies and be a substantial player and win Warzone. </p>
+            <div class="col-md-3">
+              <img class="round-img" src="img/round2.png" alt="">
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Gallery section -->
-      <div class="gallery-section">
-        <div class="container-fluid">
-          <div class="row clients-row">
-            <div class="col-lg-2 col-md-4 p-0">
-              <img src="img/default.jpg" alt="">
-            </div>
-            <div class="col-lg-2 col-md-4 p-0">
-              <img src="img/default.jpg" alt="">
-            </div>
-            <div class="col-lg-2 col-md-4 p-0">
-              <img src="img/default.jpg" alt="">
-            </div>
-            <div class="col-lg-2 col-md-4 p-0">
-              <img src="img/default.jpg" alt="">
-            </div>
-            <div class="col-lg-2 col-md-4 p-0">
-              <img src="img/default.jpg" alt="">
-            </div>
-            <div class="col-lg-2 col-md-4 p-0">
-              <img src="img/default.jpg" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Newsletter section -->
-      <section id="contact" class="newsletter-section py-5">
+      <!-- Contact section -->
+      <section id="contact" class="contact-section bg-light py-5">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 text-white">
+            <div class="col-md-6">
               <h2 class="mb-3">Contact me</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repudiandae ratione pariatur architecto.</p>
+              <p>Feel free to write me an email, i would love to hear your story. Use the details below to get in touch with me.</p>
               <div class="row">
                 <div class="col-12">
-                  <p><strong>Phone:</strong> +91 123 456 7890<br>
-                    <strong>Email:</strong> zotysingh@gmail.com</p>
+                  <p>
+                    <i class="fa fa-phone"></i> <strong> <a href="tel:+4383415520 ">(438) 341 5520</a> </strong> <br>
+                    <i class="fa fa-envelope"></i> <strong> <a href="mailto:manzotsingh@gmail.com">manzotsingh@gmail.com</a> </strong>  <br>
+                    <i class="fa fa-donate"></i> <strong> <a href="#" target="_blank" rel="noopener noreferrer"> Help me buy new Laptop!</a></strong> <br>
+                  </p>
                 </div>
               </div>
             </div>
             <div class="col-md-6">
-              <h4 class="mb-4 text-white">Write to me</h4>
-              <form class="newsletter-form">
+              <h4 class="mb-4">Write to me</h4>
+              <form class="contact-form">
                 <div class="form-row">
                   <div class="form-group col-md-6">
                     <input type="text" placeholder="name" required>
@@ -268,7 +527,7 @@
                   <input type="text" placeholder="your message">
                 </div>
                 <div class="form-group">
-                  <button class="btn btn-dark"> <i class="fa fa-paper-plane"></i> Send</button>
+                  <button class="btn btn-dark"> <i class="fa fa-paper-plane"></i> Send </button>
                 </div>
               </form>
             </div>
@@ -277,14 +536,23 @@
       </section>
 
       <!-- Footer top section -->
-      <section id="final" class="final-section bg-light py-5">
-        <div class="container">
-          <div class="row">
-
-            <div class="col-lg-6">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita repudiandae dicta porro, inventore facilis, nesciunt odit quaerat fugit ea, est modi dolor beatae. Error maxime reprehenderit eos sint animi odit!</p>
+      <section id="footer" class="footer-section bg-white py-5 position-relative">
+        <div class="foot-img">
+          <img src="img/footer.jpg" alt="">
+        </div>
+        <div class="container pb-5">
+          <div class="row pb-5">
+            <div class="col-md-6">
+              <p>Gamer first and on road to world's best Game Developer. I love playing games as much as i do creating new ones. Check out my youtube channel for monthly lists of Best Games!</p>
+              <a style="color:#ff0000;" href="https://www.youtube.com/c/defacegames" target="_blank" title="Deface Games"> <i class="fab fa-youtube"></i> Deface Games </a>
             </div>
-
+            <div class="col-md-6">
+              <div class="d-block d-md-none">
+                <div class="">
+                  <p class="text-muted">&copy; No Copyrights.<br> Handcrafted by Manzot himself.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -292,11 +560,13 @@
     </div>
   </div>
 
-  <div class="fixed-enquiry back-to-top"> <i class="fa fa-angle-double-up"></i> </div>
+  <div class="back-to-top"> <i class="fa fa-angle-double-up"></i> </div>
+
 
   <!-- Scripts -->
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/fancybox.min.js"></script>
   <script src="js/main.js"></script>
 
   <script src="js/fontawesome.all.min.js" async></script>
