@@ -1,18 +1,13 @@
 $(document).ready(function () {
   console.log('footer js initilized.');
 
-	/*------------------
-		Navigation
-	--------------------*/
+	// Navigation
   $('.nav-switch').on('click', function (event) {
     $('.main-menu').slideToggle(400);
     event.preventDefault();
   });
 
-
-	/*------------------
-		Accordions
-	--------------------*/
+	// Accordions
   $('.panel-link').on('click', function (e) {
     $('.panel-link').removeClass('active');
     var $this = $(this);
@@ -21,7 +16,6 @@ $(document).ready(function () {
     }
     e.preventDefault();
   });
-
 
   //back to top
   backToTop();
@@ -51,6 +45,31 @@ $(document).ready(function () {
       $('.nav-switch').trigger('click'); // to close navbar
     }
   });
+
+  // send mail via ajax
+  $("#contactFormSubmit").click(function(e) {
+    e.preventDefault();
+    var data = {
+      name: $("#contactform input[name='name']").val(),
+      email: $("#contactform input[name='email']").val(),
+      msg: $("#contactform textarea[name='msg']").val(),
+    };
+    $.ajax({
+      type: "POST",
+      url: "https://galzor.com/contact-zoty.php",
+      data: data,
+      success: function (data) {
+        console.log(data);
+        $("#contactFormResponse").html(data);
+        $('.success').fadeIn(1000);
+      },
+      error: function(err){
+        console.log(err);
+      }
+    });
+    console.log('all done');
+  });
+
 
 });
 
