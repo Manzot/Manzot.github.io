@@ -492,6 +492,10 @@ a:focus {
     display: block;
   }
 
+ .foot-img {
+	right: 20px;
+	width: 350px;
+ }
 
 }
 
